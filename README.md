@@ -1,4 +1,4 @@
-# graph-embedding
+# GraphEmbedding
 
 This repo includes graph embedding related models developed by our team. The detailed instructions and implementations of each model can be found in corresponding directories listed below.
 
