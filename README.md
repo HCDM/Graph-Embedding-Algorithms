@@ -10,7 +10,7 @@ This repo includes graph embedding related models developed by our team. The det
 
 # Reference
 
-[1] Nan Wang, Lu Lin, Jundong Li and Hongning Wang. "Unbiased Graph Embedding with Biased Graph Observations." arXiv preprint arXiv:2110.13957 (2021).
+[1] Nan Wang, Lu Lin, Jundong Li, and Hongning Wang. 2022. Unbiased Graph Embedding with Biased Graph Observations. In <i>Proceedings of the ACM Web Conference 2022</i> (<i>WWW '22</i>). Association for Computing Machinery, New York, NY, USA, 1423–1433. DOI:https://doi.org/10.1145/3485447.3512189
 
 [2] Lu Lin, Ethan Blaser and Hongning Wang. "Graph Structural Attack by Spectral Distance." arXiv preprint arXiv:2111.00684 (2021).
 
