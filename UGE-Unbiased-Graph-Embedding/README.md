@@ -1,7 +1,14 @@
 
 # UGE-Unbiased-Graph-Embedding
 
-This is the code for paper "Unbiased Graph Embedding with Biased Graph Observations" accepted by WWW'22.
+This is the code for the paper "Unbiased Graph Embedding with Biased Graph Observations" accepted by WWW'22.
+
+
+## Introduction
+<img src="bias-free-graph.png" width="500" height="260">
+
+Unbiased Graph Embedding (UGE) is based on the idea of learning unbiased node representations from an underlying bias-free graph, where only non-sensitive attributes are involved in the graph generation. We proposed two ways to achieve that: (1) a weighting based method (**UGE-W**), where the weighted link reconstruction loss is calculated from the bias-free graph, in expectation. This is a **sufficient condition** for unbiased graph embedding. (2) a regularization based method (**UGE-R**), which is requiring the resulting embeddings to have the properties of those directly learned from a bias-free graph. This is a **necessary condition** for unbiased graph embedding. We also combined these two methods (UGE-C) to **achieve sufficient-necessary condition trade-off**.
+
 
 ## Requirements
 
@@ -80,16 +87,6 @@ python run_graph_embedding.py --epochs=800 --dataset=pokec-z --model=gat --debia
 
 Please cite our paper if you find this repo useful for your research or development.
 
-arXiv:
-```
-@article{wang2021unbiased,
-  title={Unbiased Graph Embedding with Biased Graph Observations},
-  author={Wang, Nan and Lin, Lu and Li, Jundong and Wang, Hongning},
-  journal={arXiv preprint arXiv:2110.13957},
-  year={2021}
-}
-```
-Proceedings of the ACM Web Conference 2022:
 ```
 @inproceedings{wang2022unbiased,
   author = {Wang, Nan and Lin, Lu and Li, Jundong and Wang, Hongning},
@@ -108,7 +105,5 @@ Proceedings of the ACM Web Conference 2022:
   series = {WWW '22}
 }
 ```
-
-
 
 
